@@ -51,7 +51,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   //int _counter = 0;
-  double _sliderValue = 0.5;
+  double _steering = 0.5;
 
 /*
   void _incrementCounter() {
@@ -112,10 +112,10 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Slider(
                 onChanged: (value) => {
                   setState(() {
-                    _sliderValue = value;
+                    _steering = value;
                   })
                 },
-                value: _sliderValue,
+                value: _steering,
               ),
             ),
             SizedBox(height: 40.0),
@@ -136,10 +136,10 @@ class _MyHomePageState extends State<MyHomePage> {
             Slider(
               onChanged: (value) => {
                 setState(() {
-                  _sliderValue = value;
+                  _steering = value;
                 })
               },
-              value: _sliderValue,
+              value: _steering,
             ),
           ],
         ),

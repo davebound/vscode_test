@@ -50,9 +50,10 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  //int _counter = 0;
   double _sliderValue = 0.5;
 
+/*
   void _incrementCounter() {
     setState(() {
       // This call to setState tells the Flutter framework that something has
@@ -63,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
       _counter++;
     });
   }
+  */
 
   @override
   Widget build(BuildContext context) {
@@ -143,7 +145,7 @@ class _MyHomePageState extends State<MyHomePage> {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
+        //onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: /*Icon(Icons.add)*/ Text('STOP!'),
       ), // This trailing comma makes auto-formatting nicer for build methods.
